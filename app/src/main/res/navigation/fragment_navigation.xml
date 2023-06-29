@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/navigation_rick">
+
+    <fragment
+        android:id="@+id/navigation_rick"
+        android:name="com.example.mybottomnavapp.ui.RickFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_rick" />
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.mybottomnavapp.ui.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.example.mybottomnavapp.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
